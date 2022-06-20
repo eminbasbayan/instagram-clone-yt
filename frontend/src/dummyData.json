@@ -1,0 +1,74 @@
+[
+    {
+        "createdAt": "2022-06-08T08:52:55.430Z",
+        "name": "Jodi Considine",
+        "avatar": "person/1.png",
+        "username": "Cordell_Kuhlman50",
+        "bio": "Est maiores repellendus.",
+        "img": "post/1.png",
+        "friends": [],
+        "desc": "Debitis est architecto quasi in maxime a. Beatae voluptatem nobis consequatur dignissimos. Vero perferendis quam vero nihil qui nihil aut odit nam. Natus facilis porro omnis. Unde exercitationem voluptatum expedita. Omnis sit illo at eum suscipit.",
+        "likes": [],
+        "id": "1"
+    },
+    {
+        "createdAt": "2022-06-08T08:24:57.715Z",
+        "name": "Rudy Paucek",
+        "avatar": "person/2.png",
+        "username": "Mustafa.Wisoky65",
+        "bio": "Odio pariatur et adipisci dolores eum nisi adipisci similique ut.",
+        "img": "post/2.png",
+        "friends": [],
+        "desc": "Ab voluptas vel laboriosam eum ex. Quos possimus sed eligendi. Maxime mollitia rerum atque velit illum ut facilis. Laudantium laudantium et. Iure officiis laudantium sit iusto enim blanditiis quos voluptas. Id aut sit est aspernatur dolores ut.",
+        "likes": [],
+        "id": "2"
+    },
+    {
+        "createdAt": "2022-06-08T18:43:16.461Z",
+        "name": "Elena Schinner",
+        "avatar": "person/3.png",
+        "username": "Monte.Ankunding24",
+        "bio": "Dignissimos adipisci occaecati in dignissimos ab magnam itaque.",
+        "img": "post/3.png",
+        "friends": [],
+        "desc": "Incidunt voluptatibus in in officia beatae vitae repudiandae sed ipsa. Qui repellendus nihil fugiat modi fugit ducimus voluptates aut dolores. Molestias et maxime unde architecto.",
+        "likes": [],
+        "id": "3"
+    },
+    {
+        "createdAt": "2022-06-08T16:31:01.603Z",
+        "name": "Evan Kunde",
+        "avatar": "person/4.png",
+        "username": "Karson91",
+        "bio": "Ut et sequi voluptates.",
+        "img": "post/4.png",
+        "friends": [],
+        "desc": "Nostrum dolores veniam id. Ducimus sit soluta accusamus sed veniam aut illo veritatis. Assumenda at ipsam voluptatem nulla nemo.",
+        "likes": [],
+        "id": "4"
+    },
+    {
+        "createdAt": "2022-06-08T18:48:15.883Z",
+        "name": "Della VonRueden",
+        "avatar": "person/5.png",
+        "username": "Donny_Howell60",
+        "bio": "Quo praesentium id aut ut fugit tempora libero eligendi illo.",
+        "img": "post/5.png",
+        "friends": [],
+        "desc": "Alias aperiam nam quia cupiditate dolore recusandae ipsam placeat. Perspiciatis ut fugit dolorem in sed laborum. Recusandae occaecati voluptas ut est consequatur fuga iure et. Quidem praesentium repellat ipsam nihil.",
+        "likes": [],
+        "id": "5"
+    },
+    {
+        "createdAt": "2022-06-08T20:33:34.700Z",
+        "name": "Lori Kreiger",
+        "avatar": "person/6.png",
+        "username": "Demarcus.Abbott",
+        "bio": "Autem odio ut earum omnis error.",
+        "img": "post/6.png",
+        "friends": [],
+        "desc": "Quasi quas fugiat neque quidem laboriosam architecto corporis deleniti. Corrupti voluptas ipsum saepe vel doloremque earum ipsam dolores earum. Adipisci beatae fuga dolorem illo magnam. Explicabo vero placeat aut fugiat. Modi explicabo saepe. Qui corporis ut quod libero facere veritatis quis quia aut.",
+        "likes": [],
+        "id": "6"
+    }
+]

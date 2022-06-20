@@ -1,0 +1,22 @@
+.home-page {
+  display: flex;
+  margin: 88px 0;
+}
+
+.home-page .posts {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.rightbar-wrapper {
+  flex: 2;
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .rightbar-wrapper {
+    display: none;
+  }
+}

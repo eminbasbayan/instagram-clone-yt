@@ -1,0 +1,83 @@
+.rightbar {
+  padding: 0 14px;
+  position: fixed;
+  top: calc(24px + 64px);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account-titles {
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+}
+
+.account-titles a {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: start;
+}
+
+.account-titles span {
+  color: #ccc;
+  display: flex;
+  font-size: 14px;
+}
+
+.friends-title {
+  display: flex;
+  margin: 12px 0 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.friends-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.friend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friend-item-left {
+  display: flex;
+  align-items: center;
+}
+
+.friend-usermame {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.friend-usermame a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.friend-usermame span {
+  font-size: 12px;
+  color: #ccc;
+  display: flex;
+}
+
+.friend-item-right {
+  margin-left: 10pc;
+}
+.friend-item-right button {
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .friend-item-right {
+    margin-left: 4pc;
+  }
+}

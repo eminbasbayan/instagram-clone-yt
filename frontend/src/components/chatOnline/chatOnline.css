@@ -1,0 +1,28 @@
+.chat-online-friend {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.chat-online-img-container {
+  position: relative;
+  margin-right: 10px;
+}
+
+.chat-online-badge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .chat-online-name {
+    display: none;
+  }
+}

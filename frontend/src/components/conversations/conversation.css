@@ -1,0 +1,25 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.conversation-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.conversation-name {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .conversation-name {
+    display: none;
+  }
+}

@@ -1,0 +1,157 @@
+.profile-page {
+  margin: 88px 0;
+}
+
+.profile-page .profile-head {
+  margin-top: 20px;
+}
+
+.profile-page .profile-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-page .profile-head .head-left {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.profile-page .profile-head .head-right {
+  flex: 2;
+}
+
+.profile-page .profile-head .profile-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-page .head-right-top {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.profile-page .head-right-top .profile-page-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.profile-page .head-right-top .profile-page-buttons button:not(:first-child) {
+  background: #fafafa;
+}
+
+.profile-page .head-right-top .profile-page-username {
+  font-size: 28px;
+}
+
+.head-right-top .profile-page-buttons > a {
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  padding: 5px 9px;
+}
+
+.profile-page .head-right-center {
+  display: flex;
+  column-gap: 40px;
+  margin: 24px 0 20px 0;
+}
+
+.profile-page .head-right-center > div {
+  display: flex;
+  column-gap: 4px;
+}
+
+.profile-page .head-right-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+/* profile body  */
+.profile-body {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.profile-body .profile-nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.profile-body .profile-nav-tabs > button {
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  column-gap: 8px;
+  position: relative;
+}
+
+.profile-body .profile-nav-tabs > button.active:after {
+  content: "";
+  background-color: #000;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: -10px;
+}
+
+.profile-body .profile-post-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.profile-body .profile-post-grid .grid-post {
+  max-width: 310px;
+  position: relative;
+}
+
+.profile-body .profile-post-grid .grid-post img {
+  height: 300px;
+}
+
+.profile-body .profile-post-grid .like-icon-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.profile-body .profile-post-grid .grid-post:hover .like-icon-wrapper {
+  opacity: 1;
+}
+
+.profile-post-grid .like-icon {
+  color: red;
+}
+
+.profile-post-grid b {
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .profile-page .profile-head {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .profile-body .profile-nav-tabs {
+    justify-content: center;
+  }
+  .profile-body .profile-nav-tabs button:not(:first-child) {
+    display: none;
+  }
+
+  .profile-body .profile-post-grid {
+    grid-template-columns: auto;
+  }
+}
